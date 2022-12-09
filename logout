@@ -1,0 +1,3 @@
+def logoutPage(request):
+    logout(request)
+    return redirect(request, "login.html")
